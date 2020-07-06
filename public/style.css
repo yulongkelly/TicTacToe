@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Dark-Seamless-Free-Photoshop-Wood-Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid: 85px 85px 85px / 85px 85px 85px;
+  gap: 5px;
+  margin: 50px auto;
+  width: calc(3 * 85px + 2 * 5px);
+  height: calc(3 * 85px + 2 * 5px);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.piece {
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.winning {
+  margin-left: 45%;
+  margin-right: 30%;
+}
+
+.redirect {
+  display: flex;
+  flex-direction: "row";
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.begin {
+  margin-top: 10px;
+}
